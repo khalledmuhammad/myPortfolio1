@@ -1,0 +1,38 @@
+.quotes-section{
+    height: 80vh;
+}
+.quotes-inner {
+    margin-top: 70px;
+    flex-direction: column;
+    width: 70%;
+    margin-inline: auto;
+
+
+
+}
+
+.quotes-heading {
+    font-family: ubuntu;
+    font-weight: 600;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 60px;
+    color: #2c5364;
+
+}
+
+.quotes-sub {
+    font-family: oswald;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 10px;
+    opacity: 0.8;
+    text-transform: capitalize;
+    color: #2c5364
+}
+
+.quotes-card{
+    border-radius: 50px 20px 50px 0;
+    padding: 24px;
+    width: 90%;
+}

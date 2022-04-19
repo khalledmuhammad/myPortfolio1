@@ -1,0 +1,30 @@
+
+.about-section-inside{
+    margin-top: 60px;
+    flex-direction: column;
+    width: 70%;
+   margin-inline: auto;
+   
+
+   
+}
+
+.about-me-heading{
+    font-family: ubuntu;
+    font-weight: 600;
+    text-decoration: underline;
+    text-align: center;
+    
+}
+.about-me-sub{
+    font-family: oswald;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 10px ;
+    opacity : 0.8;
+    text-transform: capitalize;
+}
+.text-about-me{
+    padding-block: 12px ;
+    font-family: ubuntu;
+}

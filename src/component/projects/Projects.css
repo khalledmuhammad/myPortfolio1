@@ -1,0 +1,24 @@
+.project-section{
+    height: 50vh;
+}
+.project-inner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+}
+.project-inner h6{
+    margin-bottom: 20px;
+    font-family: ubuntu;
+    font-weight: 900;
+}
+.project-inner h4{
+    font-family: oswald;
+    color: orangered;
+}
+@media screen and (max-width:900px) {
+    .project-inner h6{
+     font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,34 @@
+.education-section{
+    height: 50vh;
+}
+.education-inner{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.education-inner span{
+    font-family: ubuntu;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.education-inner span b{
+    color: #2c5364 ;
+    font-weight: 1000 !important;
+    font-size: 1.2rem;
+}
+@media screen and (max-width:900px) {
+    .education-inner span{
+     
+        font-size: 1rem;
+       
+    }
+    .education-inner span b{
+      
+        font-size: 1rem;
+    }
+  
+}
