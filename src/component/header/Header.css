@@ -10,7 +10,8 @@
 
     color: #fff;
     font-family: "ubuntu";
-    height: 90vh;
+    height: 100vh;
+
 
 
 
@@ -98,6 +99,7 @@
     padding: 4px 40px;
     border: 2px solid #fff;
     transition: all 0.3s;
+    cursor: pointer;
 }
 
 .btn-hire-me:hover {
@@ -111,7 +113,7 @@
     background: transparent;
     color: #fff;
     border-radius: 25px;
-
+    cursor: pointer;
     padding: 4px 40px;
     border: 2px solid #fff;
     transition: all 0.3s;
@@ -191,6 +193,9 @@ a.active:hover {
 
     .Header-section {
         clip-path: none;
+        padding-inline: 70px;
+
+      
     }
 
 }
@@ -207,10 +212,11 @@ a.active:hover {
     }
 
     .name-nav {
-        position: relative;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+      
+        margin-inline: auto;
+        margin-top: 10px;
+        
+        
     }
 
     .menu-icon {
@@ -219,11 +225,17 @@ a.active:hover {
         position: fixed;
         top: 0;
         right: 0;
-        z-index: 10;
+        z-index: 100;
         cursor: pointer;
         transition: all 9ms ease-in;
     }
+     .menu-item {
+        height: 100vh;
+        width: 50%;
+        border-radius: 0;
+        z-index: 1;
 
+    }
 
 }
 @keyframes open-menu {

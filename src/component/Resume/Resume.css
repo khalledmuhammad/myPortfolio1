@@ -40,57 +40,124 @@
     color: #ffff
 }
 
-.rsume-new-section{
+.rsume-new-section {
     width: 70vw;
     margin-inline: auto;
 
 }
+
 .resume-left-section {
+
+    background-color: white;
+    width: 20%;
+    color: white;
+    border-right: 1px dashed black;
+
+
+
+}
+
+.resume-right-section {
+    background-color: white;
+    width: 70%;
+
+}
+
+.left-section-options h4:hover {
+
+    color: #fff;
+    background: #2c5364;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    padding-top: 3px;
+
+    height: 30px;
+}
+
+.left-section-options {
+    width: 100%;
+    cursor: pointer;
+}
+
+.left-section-options h4 {
+    font-size: 1.3rem;
+}
+
+.clicked {
+    color: #fff;
+    background: #2c5364;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    padding-top: 3px;
+    margin-top: 2px;
+
+    height: 30px;
+
+}
+
+@media screen and (max-width:900px) {
+    .left-section-options {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .left-section-options h4 {
+        font-size: 0.7rem;
+        writing-mode: vertical-rl;
+
+    }
+
+    .left-section-options h4:hover {
+
+
+        padding-top:0;
+        margin-top: 0;
         
-        background-color: white;
-        width: 20%;
-        color: white;
-        border-right: 1px dashed black;
-        
 
 
-    }
-    .resume-right-section{
-        background-color: white;
-        width: 70%;
 
-    }
-      .left-section-options h4:hover{
-   
-                color :#fff;
-                background: #2c5364;
-                border-top-right-radius: 20%;
-                border-bottom-right-radius: 20%;
-                padding-top: 3px;
+        border-top-right-radius: 20%;
+        border-bottom-right-radius: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-                height: 30px;
-    }
-    .left-section-options{
         width: 100%;
-        cursor: pointer;
+
+        height: 70px;
     }
-    .left-section-options h4{
-        font-size: 1.3rem;
+
+    .clicked {
+        padding-top:0;
+        margin-top: 0;
+        border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        height: 70px;
+
     }
-    @media screen and (max-width:900px) {
-        .left-section-options h4{
-            writing-mode: tb-rl;
-            align-self: center;
-        }
-    }
-    .cv-button{
-        background-color: #fff;
-        font-family: ubuntu;
-        font-weight: bolder;
-        font-size: 1rem;
-        border: none;
-    }
-    .cv-button:hover{
-        background-color: #203a43;
-        color: #fff;
-    }
+
+
+
+}
+
+.cv-button {
+    background-color: #fff;
+    font-family: ubuntu;
+    font-weight: bolder;
+    font-size: 1rem;
+    border: none;
+}
+
+.cv-button:hover {
+    background-color: #203a43;
+    color: #fff;
+}

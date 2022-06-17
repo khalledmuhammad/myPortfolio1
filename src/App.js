@@ -1,7 +1,7 @@
 import "./App.css";
 import Header from "./component/header/Header";
 import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
+import "aos/dist/aos.css";
 import About from "./component/about/About";
 import Resume from "./component/Resume/Resume";
 import Quotes from "./component/quotes/Quotes";

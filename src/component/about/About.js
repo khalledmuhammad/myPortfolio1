@@ -8,7 +8,7 @@ function About() {
         <h1 data-aos="fade-in" className="about-me-heading">About me</h1>
         <h3 data-aos="fade-out" className="about-me-sub"> who am i ? </h3>
         <div className="row justify-content-center  shadow-lg my-5">
-          <div data-aos="slide-left" className="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center justify-content-center  ">
+          <div data-aos="fade-in" className="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center justify-content-center  ">
             <lottie-player
               src="https://assets8.lottiefiles.com/packages/lf20_osrbi94c.json"
               background="transparent"

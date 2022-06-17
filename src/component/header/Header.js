@@ -29,7 +29,7 @@ function Header() {
   ];
   const [isOpen, setOpen] = useState(false);
   return (
-    <div className="Header-section py-5" id="home">
+    <div className="Header-section " id="home">
       <div className="menu-icon">
         <Hamburger toggled={isOpen} toggle={setOpen} color="#00ff88" />
       </div>

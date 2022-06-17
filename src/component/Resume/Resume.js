@@ -10,10 +10,10 @@ import Social from "../Social/Social";
 import Projects from "../projects/Projects";
 
 function Resume() {
-  const [education, setEducation] = useState(true);
+  const [education, setEducation] = useState(false);
   const [skills, setSkills] = useState(false);
   const [social , setSocial] = useState(false)
-  const [projects , setProjects] = useState(false);
+  const [projects , setProjects] = useState(true);
   const setAllfalse = () => {
     setEducation(false);
     setSkills(false);
@@ -24,6 +24,12 @@ function Resume() {
     setAllfalse();
     function1(state1);
   };
+  const edu_clicked = education  && "clicked" 
+  const skills_clicked = skills  && "clicked" 
+  const social_clicked = social  && "clicked" 
+  const proj_clicked = projects  && "clicked" 
+
+
 
   return (
     <div id="resume" className="resume-section ">
@@ -32,7 +38,7 @@ function Resume() {
         <span className="resume-sub" data-aos="fade-out">my professional bio :</span>
         <div className=" rsume-new-section d-flex flex-row">
           <div className="  d-flex flex-row   resume-left-section bg-dark">
-            <div className="d-flex flex-column  justify-content-around ">
+            <div className="d-flex flex-column  justify-content-around  ">
               <SchoolIcon  className="left-side-icon"  onClick={() => {
                   ChangeState(setEducation , true);
                 }} />
@@ -49,7 +55,8 @@ function Resume() {
             </div>
             <div className="d-flex flex-column justify-content-around  text-dark bg-white w-100 left-section-options ">
               <h4
-              className="mt-1"
+             
+              className={edu_clicked}
                 onClick={() => {
                   ChangeState(setEducation , true);
                 }}
@@ -60,6 +67,7 @@ function Resume() {
                   onClick={() => {
                     ChangeState(setSkills , true);
                   }}
+                  className={skills_clicked}
               >
                 Skills
               </h4>
@@ -67,6 +75,8 @@ function Resume() {
                   onClick={() => {
                     ChangeState(setProjects , true);
                   }}
+                  className={proj_clicked}
+
               >
               Projects
               </h4>
@@ -74,6 +84,7 @@ function Resume() {
                   onClick={() => {
                     ChangeState(setSocial , true);
                   }}
+                  className={social_clicked}
               >
                 Social
               </h4>
@@ -88,7 +99,8 @@ function Resume() {
           </div>
         </div>
       </div>
-      <a href="../assets/khaled.pdf" download className="btn  my-5  cv-button " data-aos="fade-in" >Download my Cv</a> 
+      <a href="khaled-mohamed-Resume.pdf" download className="btn  my-5  cv-button " data-aos="fade-in" >Download  my Cv</a> 
+
     </div>
   );
 }

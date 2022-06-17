@@ -8,6 +8,9 @@
 
    
 }
+.about-section{
+    z-index: -1;
+}
 
 .about-me-heading{
     font-family: ubuntu;

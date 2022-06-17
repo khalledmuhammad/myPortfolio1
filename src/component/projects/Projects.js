@@ -2,6 +2,12 @@ import React from "react";
 import "./Projects.css";
 const projects = [ 
     {
+        name : "Appitubity",
+        technolgy : "Reactjs , Styled Components "
+        
+    },
+    
+    {
         name : "Pizza order",
         technolgy : "Reactjs , Nodejs , Expressjs , Mongoose"
     },
@@ -9,10 +15,7 @@ const projects = [
         name : "Chicken analysis",
         technolgy : "Reactjs , Nodejs , Expressjs , Mongoose"
     },
-    {
-        name : "Stoore landing",
-        technolgy : "Reactjs "
-    },
+   
 
 ];
 
