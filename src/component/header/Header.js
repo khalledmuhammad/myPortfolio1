@@ -29,11 +29,13 @@ function Header() {
   ];
   const [isOpen, setOpen] = useState(false);
   return (
+
+    <div className="main-header">
     <div className="Header-section " id="home">
       <div className="menu-icon">
         <Hamburger toggled={isOpen} toggle={setOpen} color="#00ff88" />
       </div>
-      <nav className="d-flex flex-row justify-content-between align-items-center ">
+      <nav className="d-flex flex-row justify-content-between align-items-center  pb-5 ">
         <span className="name-nav">KHALED</span>
         <div className="desk-nav d-flex flex-row mx-5">
           <Link to="home" spy={true} smooth={true} offset={50} duration={500} >Home</Link>
@@ -94,6 +96,7 @@ function Header() {
           </ul>
         )}
       </div>
+    </div>
     </div>
   );
 }

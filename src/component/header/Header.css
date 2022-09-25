@@ -1,16 +1,20 @@
-.Header-section {
-    clip-path: polygon(0 0, 100% 0, 100% 60%, 39% 100%, 0% 50%);
-    background: #0f2027;
+.main-header{
+        background: #0f2027;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #0f2027, #203a43, #2c5364);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #0f2027, #203a43, #2c5364);
+}
+.Header-section {
+
     padding-inline: 90px;
     /*padding from left and right*/
 
     color: #fff;
     font-family: "ubuntu";
-    height: 100vh;
+    padding-block: 40px 80px;
+    max-width: 1500px;
+    margin: 0 auto;
 
 
 
@@ -112,7 +116,7 @@
     font-size: 1rem;
     background: transparent;
     color: #fff;
-    border-radius: 25px;
+    border-radius: 33px;
     cursor: pointer;
     padding: 4px 40px;
     border: 2px solid #fff;
@@ -127,7 +131,7 @@
 
 .custom-img {
     width: 200px;
-    border-radius: 30%;
+    border-radius: 33px 0;
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
@@ -188,6 +192,10 @@ a.active:hover {
 @media screen and (max-width:700px) {
     .home-section {
         flex-direction: column;
+
+    }
+    .main-header{
+        clip-path: none;
 
     }
 
