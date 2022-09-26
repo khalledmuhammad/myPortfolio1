@@ -1,19 +1,21 @@
-.resume-section {
-    height: 100vh;
+.ContainerSection{
     clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 95%);
     background: #0f2027;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #0f2027, #203a43, #2c5364);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #0f2027, #203a43, #2c5364);
-    text-align: center;
+}
+.resume-section {
+       text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
 
 }
 
 .about-section-inside {
     margin-top: 60px;
     flex-direction: column;
-    width: 70%;
     margin-inline: auto;
 
 
@@ -41,7 +43,7 @@
 }
 
 .rsume-new-section {
-    width: 70vw;
+    width: 1000px;
     margin-inline: auto;
 
 }

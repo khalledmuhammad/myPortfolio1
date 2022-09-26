@@ -32,6 +32,8 @@ function Resume() {
 
 
   return (
+
+    <div className="ContainerSection">
     <div id="resume" className="resume-section ">
       <div className="resume-inner d-flex flex-column">
         <h1 className="resume-heading" data-aos="fade-in">Resume</h1>
@@ -53,7 +55,7 @@ function Resume() {
                   }} />
 
             </div>
-            <div className="d-flex flex-column justify-content-around  text-dark bg-white w-100 left-section-options ">
+            <div className="d-flex flex-column justify-content-around  text-dark bg-white  left-section-options ">
               <h4
              
               className={edu_clicked}
@@ -101,6 +103,7 @@ function Resume() {
       </div>
       <a href="khaled-mohamed-Resume.pdf" download className="btn  my-5  cv-button " data-aos="fade-in" >Download  my Cv</a> 
 
+    </div>
     </div>
   );
 }

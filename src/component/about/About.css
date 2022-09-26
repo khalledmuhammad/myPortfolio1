@@ -3,10 +3,17 @@
     margin-top: 60px;
     flex-direction: column;
     width: 70%;
-   margin-inline: auto;
-   
+    max-width: 1500px;
+   margin: 0 auto;
 
-   
+}
+.custom-img {
+    width: 200px;
+    border-radius: 33px 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    object-fit: contain;
 }
 .about-section{
     z-index: -1;
